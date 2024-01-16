@@ -1,7 +1,7 @@
+import ContactUsPageGraphic from '@/assets/ContactUsPageGraphic.png'
 import Htext from '@/shared/Htext'
 import { SelectedPage } from '@/shared/types'
 import { motion } from 'framer-motion'
-import ContactUsPageGraphic from '@/assets/ContactUsPageGraphic.png'
 import { useForm } from 'react-hook-form'
 
 type Props = {
@@ -12,7 +12,7 @@ const ContactUs = ({setSelectedPage}: Props) => {
     const {
         register,
         trigger,
-        handleSubmit,
+       
         formState:{
             errors
         }
