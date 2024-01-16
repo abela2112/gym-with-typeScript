@@ -1,12 +1,11 @@
-import React from 'react'
-import HomePageText from '@/assets/HomePageText.png'
 import HomepageGraphic from '@/assets/HomePageGraphic.png'
-import RedBull from '@/assets/SponsorRedBull.png'
+import HomePageText from '@/assets/HomePageText.png'
 import Forbes from '@/assets/SponsorForbes.png'
 import Fortune from '@/assets/SponsorFortune.png'
-import ActionButton from '@/shared/ActionButton'
-import {SelectedPage} from '@/shared/types'
+import RedBull from '@/assets/SponsorRedBull.png'
 import useMediaQuery from '@/hooks/useMediaQuery'
+import ActionButton from '@/shared/ActionButton'
+import { SelectedPage } from '@/shared/types'
 import { motion } from 'framer-motion'
 type Props = {
     setSelectedPage:(value:SelectedPage)=>void

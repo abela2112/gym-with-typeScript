@@ -1,11 +1,10 @@
-import React from 'react'
+import BenefitsGraphicImage from '@/assets/BenefitsPageGraphic.png'
+import ActionButton from '@/shared/ActionButton'
 import Htext from '@/shared/Htext'
-import  {SelectedPage, BenefitType } from '@/shared/types'
+import { BenefitType, SelectedPage } from '@/shared/types'
 import { HomeIcon, HomeModernIcon, UserGroupIcon } from '@heroicons/react/20/solid'
 import { motion } from 'framer-motion'
-import BenefitsGraphicImage from '@/assets/BenefitsPageGraphic.png'
 import Benefit from './Benefit'
-import ActionButton from '@/shared/ActionButton'
 const container={
   hidden:{},
   visible:{

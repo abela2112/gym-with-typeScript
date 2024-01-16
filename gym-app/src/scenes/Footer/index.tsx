@@ -1,8 +1,6 @@
-import React from 'react'
 import Logo from '@/assets/Logo (3).png'
-type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <footer className='bg-primary-100 py-16'>
         <div className='mx-auto justify-between w-5/6 gap-16 md:flex '>
